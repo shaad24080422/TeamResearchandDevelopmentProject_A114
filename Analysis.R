@@ -33,7 +33,7 @@ clean_price <- function(x) {
   as.numeric(x)
 }
 
-# --- Apply cleaning ---
+# Apply cleaning 
 df <- df %>%
   mutate(duration_min = parse_duration_to_minutes(Duration),
          price_num = clean_price(Price))
