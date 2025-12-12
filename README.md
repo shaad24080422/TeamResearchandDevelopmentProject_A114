@@ -1,11 +1,22 @@
-**Flight Duration vs Flight Price**
+Flight Duration vs Ticket Price – BOM–BLR Route
 
-This project analyses the relationship between flight duration and flight price using flight data for the Mumbai (BOM) to Bangalore (BLR) route.
+7COM1079 Team Research & Development Project
+Group ID: A114
+Dataset: DS290
 
-Dataset: flight_data_BOM_BLR.csv – Contains flight details such as duration, price, timings, and flight name.
+📘 Overview
+This project investigates whether flight duration influences ticket price for flights between Mumbai (BOM) and Bengaluru (BLR). The goal is to test if a measurable statistical correlation exists between these two variables.
 
-Research Question: Is there a correlation between flight duration and flight price?
+📂 Dataset
+File: flight_data_BOM_BLR.csv
+Columns: FlightName, FlightCode, DepartingCity, ArrivingCity, ArrivingTime, Duration, Price
+Duration = independent variable
+Price = dependent variable
 
-Hypotheses
-H₀: No correlation
-H₁: There is a correlation
+❓ Research Question
+Is there a statistically significant correlation between flight duration and ticket price on the BOM–BLR route?
+
+📊 Hypotheses
+H₀: No correlation exists between duration and price.
+
+H₁: A non-zero correlation exists between duration and price.
